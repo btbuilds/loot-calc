@@ -28,7 +28,7 @@ class Menu(discord.ui.Select):
         ]
 
         super().__init__(
-            placeholder="Select Gear",
+            placeholder="What do you need crafted?",
             min_values=1,
             max_values=1,
             options=options
