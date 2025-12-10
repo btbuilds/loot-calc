@@ -1,8 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-from bot_token import BOT_TOKEN
-from server_id import SERVER_ID
+from bot_config import BOT_TOKEN, SERVER_ID
 
 GUILD_ID = discord.Object(id=SERVER_ID)
 
