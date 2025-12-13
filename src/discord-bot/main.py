@@ -14,7 +14,7 @@ class Client(commands.Bot):
         for ext in [
             "cogs.crafting_request",
             "cogs.register",
-            "cogs.test_commands"  # Add your new test commands cog
+            "cogs.pull_data"
         ]:
             await self.load_extension(ext)
 
